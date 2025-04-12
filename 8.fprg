@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 02:14:00 PM"/>
+        <attribute name="created" value="dXNlcjtJTFhPTTsyMDI1LTA0LTA4OzAxOjMyOjAwIFBNOzIxMTE="/>
+        <attribute name="edited" value="dXNlcjtJTFhPTTsyMDI1LTA0LTA4OzAyOjE0OjAwIFBNOzg7MjIyNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, oa" type="Real" array="False" size=""/>
+            <output expression="&quot;a son&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b son &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="oa" expression="(a+b)/2"/>
+            <output expression="&quot;Ikki soning orta arifmetigi &quot;&amp;oa" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

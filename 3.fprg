@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 01:49:35 PM"/>
+        <attribute name="created" value="dXNlcjtJTFhPTTsyMDI1LTA0LTA4OzAxOjMyOjAwIFBNOzIxMTE="/>
+        <attribute name="edited" value="dXNlcjtJTFhPTTsyMDI1LTA0LTA4OzAxOjQ5OjM1IFBNOzM7MjIzNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="S, a, b, P" type="Integer" array="False" size=""/>
+            <output expression="&quot;kavdatratining a tomoni&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;kvdaratning b tomonini kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="S" expression="a*b"/>
+            <assign variable="P" expression="2*(a+b)"/>
+            <output expression="&quot;yuza: &quot;&amp; S &amp;&quot; va &quot;&amp;&quot;permetri: &quot;&amp;P" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

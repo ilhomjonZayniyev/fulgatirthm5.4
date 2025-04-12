@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 01:44:13 PM"/>
+        <attribute name="created" value="dXNlcjtJTFhPTTsyMDI1LTA0LTA4OzAxOjMyOjAwIFBNOzIxMTE="/>
+        <attribute name="edited" value="dXNlcjtJTFhPTTsyMDI1LTA0LTA4OzAxOjQ0OjEzIFBNOzI7MjIyNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="S, a" type="Integer" array="False" size=""/>
+            <output expression="&quot;kavdatratining tomoni&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="S" expression="a*a"/>
+            <output expression="&quot;yuza: &quot;&amp;S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

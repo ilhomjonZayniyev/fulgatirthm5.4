@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 01:54:23 PM"/>
+        <attribute name="created" value="dXNlcjtJTFhPTTsyMDI1LTA0LTA4OzAxOjMyOjAwIFBNOzIxMTE="/>
+        <attribute name="edited" value="dXNlcjtJTFhPTTsyMDI1LTA0LTA4OzAxOjU0OjIzIFBNOzQ7MjIzMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="L, d" type="Real" array="False" size=""/>
+            <output expression="&quot;Aylanaming diamteri &quot;" newline="True"/>
+            <input variable="d"/>
+            <assign variable="L" expression="3.14*d"/>
+            <output expression="&quot;aylananing uzunligi&quot;&amp;L" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

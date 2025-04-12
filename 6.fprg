@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 02:06:23 PM"/>
+        <attribute name="created" value="dXNlcjtJTFhPTTsyMDI1LTA0LTA4OzAxOjMyOjAwIFBNOzIxMTE="/>
+        <attribute name="edited" value="dXNlcjtJTFhPTTsyMDI1LTA0LTA4OzAyOjA2OjIzIFBNOzY7MjIzMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="V, a, b, c, S" type="Real" array="False" size=""/>
+            <output expression="&quot;Kubning a tomoni&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Kubning b tomoni&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Kubning c tomoni&quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="V" expression="a*b*c"/>
+            <assign variable="S" expression="2*(a*b+b*c+c*a)"/>
+            <output expression="&quot;S=&quot;&amp;S" newline="True"/>
+            <output expression="&quot;V=&quot;&amp;V" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
